@@ -7,6 +7,9 @@
     "typescript": "^5.9.3"
   },
   "scripts": {
-    "test": "jest --coverage"
+    "test": "node -r ts-node/register ./node_modules/.bin/jest --config=jest.config.ts"
+  },
+  "jest": {
+    "testEnvironment": "node"
   }
 }
