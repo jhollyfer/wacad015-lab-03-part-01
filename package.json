@@ -1,6 +1,4 @@
 {
-  "name": "lab-03",
-  "version": "1.0.0",
   "devDependencies": {
     "@types/jest": "^30.0.0",
     "jest": "^30.2.0",
@@ -9,9 +7,6 @@
     "typescript": "^5.9.3"
   },
   "scripts": {
-    "test": "node -r ts-node/register ./node_modules/.bin/jest --config=jest.config.ts"
-  },
-  "jest": {
-    "testEnvironment": "node"
+    "test": "jest --coverage"
   }
 }
